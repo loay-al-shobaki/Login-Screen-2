@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Login Screen 2</string>
+    <string name="the_tolet">The Tolet</string>
+    <string name="find_house">Find Your House</string>
+    <string name="login">Login</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
 </resources>

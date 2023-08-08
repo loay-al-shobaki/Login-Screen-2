@@ -45,7 +45,7 @@ val Typography = Typography(
         fontSize = 24.sp
     ),
     titleMedium = TextStyle(
-        fontFamily = Robote,
+        fontFamily = Inter,
         fontWeight = FontWeight.Normal,
         fontSize = 14.sp
     ),
