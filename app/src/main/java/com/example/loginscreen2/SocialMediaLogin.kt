@@ -26,6 +26,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.loginscreen2.ui.theme.BlueGray
 import com.example.loginscreen2.ui.theme.LightBlueWhite
+import com.example.loginscreen2.ui.theme.dimens
 
 
 @Composable
@@ -40,7 +41,7 @@ fun SocialMediaLogIn(
             .clip(RoundedCornerShape(4.dp))
             .socicMedia()
             .clickable { onClick() }
-            .height(40.dp),
+            .height(MaterialTheme.dimens.buttonHeight),
         horizontalArrangement = Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically,
 
